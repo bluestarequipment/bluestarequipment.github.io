@@ -382,3 +382,8 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+@media (max-width: 576px) { /* Mobile devices */
+    .logo-img {
+      max-width: 50%; /* Adjust the percentage as needed */
+    }
+  }
