@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #3CB815;
-    --secondary: #F65005;
+    --primary: #3831be;
+    --secondary: #3831be;
     --light: #F7F8FC;
     --dark: #111111;
 }
@@ -25,7 +25,6 @@
 }
 
 .bg-icon {
-    background: url(../img/bg-icon.png) center center repeat;
     background-size: contain;
 }
 
@@ -382,8 +381,25 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
-@media (max-width: 576px) { /* Mobile devices */
+
+/* Default styling for larger screens */
+.logo-img {
+    max-width: 100%;
+    width: auto;
+  }
+  
+  /* For larger screens (desktops) */
+  @media (min-width: 992px) {
     .logo-img {
-      max-width: 50%; /* Adjust the percentage as needed */
+      max-width: 200px; /* Example size, adjust as needed */
     }
   }
+  
+  /* For smaller screens (mobile) */
+  @media (max-width: 991px) {
+    .logo-img {
+      max-width: 85%; /* Ensures the image fits within its container */
+      width: 100%; /* Ensures the image takes up the full width of the container */
+    }
+  }
+  
