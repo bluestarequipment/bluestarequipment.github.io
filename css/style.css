@@ -403,3 +403,22 @@
     }
   }
   
+  /* Default font size for all screens */
+h1.display-2.mb-5 {
+    font-size: 2rem;
+  }
+  
+  /* Smaller font size for mobile screens */
+  @media (max-width: 576px) {
+    h1.display-2.mb-5 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  /* Larger font size for desktop screens */
+  @media (min-width: 992px) {
+    h1.display-2.mb-5 {
+      font-size: 2.5rem;
+    }
+  }
+  
