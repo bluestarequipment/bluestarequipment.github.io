@@ -1,5 +1,5 @@
-User-agent: Googlebot
-User-agent: AdsBot-Google
-Disallow: /
 
-Sitemap: https://bluestarequipment.site//sitemap.xml
+User-agent: *
+Disallow: /private/
+Allow: /public/
+Sitemap: https://bluestarequipment.site/sitemap.xml
